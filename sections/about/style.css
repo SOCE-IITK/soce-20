@@ -1,0 +1,62 @@
+body{
+    background-image:url("about-back.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family:"linotte";
+    color:white;
+    font-size:3vh;
+}
+section{
+	text-align:center;
+}
+.head{
+	font-family:"northwestbold";
+	font-size:20vh;
+	color:white;
+    text-align: center;
+    display:flex;
+	justify-content: center;
+	align-items: baseline;
+}
+.head p{
+	border:1vh solid white;
+	padding-top:10vmin;
+	padding-bottom:15vmin;
+	width:70vw;
+}  
+.text{
+    padding:0 5vw 0 10vw;
+    text-align:justify;
+    width:80vw;
+}
+iframe{
+margin:5vh 30vw 2vh 35vw;
+width:30vw;
+height: 40vw;
+}
+@media screen and (max-width:1200px){
+    .head{
+        font-size:12vw;
+        text-align: center;
+        margin:0 10vw;
+    }
+    .head p{
+      margin-left:0vw;
+    }
+    body{
+        width:100vw;
+        font-size:5vw;
+    }
+    .text{
+        padding:0 5vmin 0 5vmin;
+        text-align:justify;
+        width:90vw;
+    }
+    iframe{
+        margin:2vh 5vw;
+        width:90vw;
+        height: 120vw;
+        }
+}

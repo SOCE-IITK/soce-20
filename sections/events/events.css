@@ -1,0 +1,165 @@
+body{
+	margin:0;
+	padding:0;
+  overflow-x:hidden;
+  color:white;
+  width:95vw;
+  background-image:url("event.jpg");
+  background-attachment: fixed;
+  background-size:cover;
+  background-repeat:repeat;
+  background-position: center;
+  font-family:"linotte";
+  line-height: 1.5;
+}
+b{
+  text-transform: uppercase;
+  text-decoration: none;
+  border-bottom:2.5px solid white;
+}
+section{
+	text-align:center;
+}
+.head{
+	font-family:"northwestbold";
+	font-size:20vh;
+	color:white;
+	text-align: center;
+	  display:flex;
+	  align-items: center;
+	justify-content: center;
+	  align-items: baseline;
+	  text-transform: uppercase;
+	  text-shadow:0.2vmin 0.2vmin black;
+}
+.head p{
+	border:1vh solid white;
+	width:70vw;
+	padding-top:10vmin;
+	padding-bottom:15vmin;
+}  
+.secondpage{
+	width:80vw;
+  margin-left:10vw;
+}
+.heading{
+	font-size:250%;
+  border-bottom:1px solid white;
+  font-family:"northwestbold";
+  text-transform: uppercase;
+  text-shadow:0.2vmin 0.2vmin black;
+	}
+.subhead{
+	font-size:225%;
+	font-weight:bold;
+  font-family:"northwestbold";
+  text-transform: uppercase;
+  text-shadow:0.2vmin 0.2vmin black;
+}
+.thirdpage{
+	min-height:100vh;
+	width:80vw;
+	margin-left:10vw;
+}
+.talk{
+	width:70vw;
+  margin-left:5vw;
+  background-color:rgba(0, 0, 0,0.8);
+	box-shadow:0px 0px 10px rgba(255,255, 255,0.2);
+  margin-bottom:5vh;
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+}
+.utalk{
+	width:70vw;
+  margin-left:5vw;
+  background-color:rgba(0, 0, 0,0.8);
+	box-shadow:0px 0px 10px rgba(255, 255, 255,0.2);
+  margin-bottom:5vh;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: space-around;
+}
+.poster{
+	width:7vmax;
+	margin:8px;
+}
+.aboutposter{
+  width:60vw;
+}
+.fourthpage{
+	min-height:100vh;
+	width:80vw;
+	margin-left:10vw;
+}
+.uposter{
+	width:15vmax;
+	margin:8px 30vw 0vmax 30vw;
+}
+.uaboutposter{
+	text-align:initial;
+	width:65vw;
+	margin-left:2.5vw;
+	padding-bottom:2.5vw;
+}
+.slick-slide img{
+  width:80vw;
+  height: 40vw;
+  object-position: center;
+  object-fit: cover;
+}
+.slick-slide{
+  margin-bottom:4vmax;
+}
+button.slick-arrow::before {
+  color: white !important;
+}
+.uaboutposter a{
+  color:darkred;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-bottom:2.5px solid darkred;
+  font-weight: 700;
+}
+@media screen and (max-width:1200px){
+  body{
+    line-height: 1.5;
+    font-size:4vw;
+  }
+  .head{
+    font-size:15vw;
+    text-align: center;
+    margin:0 10vw;
+  }
+  .head p{
+  margin-left:0vw;
+  }
+  .aboutposter{
+    width:70vw;
+  }
+  .uaboutposter{
+    width:70vw;
+  }
+body{
+  width:100vw;
+}
+.talk{
+	width:80vw;
+  margin-left:0vw;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+}
+.utalk{
+  width:80vw;
+  margin-left:0;
+}
+.uposter{
+  width:50vw;
+}
+.poster{
+  width:50vw;
+}
+}
